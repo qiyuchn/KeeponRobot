@@ -102,134 +102,121 @@ void loop () {
                if(commandString[0]=='Y') //If there is a command to execute
                {   
                  sendMotorCommand('T', currentSpeed, currentUnstoppable, 110); //Execute the motor command
-                 currentMotor=commandString[i]; 
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the firsT
                     delay(200);
-                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 180);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 180); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }
                if(commandString[0]=='N') //If there is a command to execute
                {   
-                 sendMotorCommand('P', currentSpeed, currentUnstoppable, 70);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('P', currentSpeed, currentUnstoppable, 70); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                   delay(300);
-                 sendMotorCommand('P', currentSpeed, currentUnstoppable, 130);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('P', currentSpeed, currentUnstoppable, 130); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                  delay(300);
-                 sendMotorCommand('P', currentSpeed, currentUnstoppable, 90);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('P', currentSpeed, currentUnstoppable, 100); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }
       //Collection of YES-----------------------Begin
                //BigSlow YES
                if(commandString[0]=='U') //If there is a command to execute
                {   
-                 sendMotorCommand('T', currentSpeed_BY, currentUnstoppable, 30);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed_BY, currentUnstoppable, 30); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the firsT
                     delay(400);
-                 sendMotorCommand('T', currentSpeed_BY, currentUnstoppable, 180);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed_BY, currentUnstoppable, 180); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                     delay(400);
-                 sendMotorCommand('T', currentSpeed_BY, currentUnstoppable, 30);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed_BY, currentUnstoppable, 30); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the firsT
                     delay(400);
-                 sendMotorCommand('T', currentSpeed_BY, currentUnstoppable, 180);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed_BY, currentUnstoppable, 180); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }
                if(commandString[0]=='I') //If there is a command to execute
                {   
-                 sendMotorCommand('T', currentSpeed_MY, currentUnstoppable, 110);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed_MY, currentUnstoppable, 110); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the firsT
                     delay(250);
-                 sendMotorCommand('T', currentSpeed_MY, currentUnstoppable, 180);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed_MY, currentUnstoppable, 180); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                     delay(250);
-                 sendMotorCommand('T', currentSpeed_MY, currentUnstoppable, 110);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed_MY, currentUnstoppable, 110); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the firsT
                     delay(250);
-                 sendMotorCommand('T', currentSpeed_MY, currentUnstoppable, 180);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed_MY, currentUnstoppable, 180); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }
                //Small YES
                if(commandString[0]=='O') //If there is a command to execute
                {   
-                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 145);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 145); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the firsT
                     delay(100);
-                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 180);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 180); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                     delay(100);
-                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 145);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 145); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the firsT
                     delay(100);
-                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 180);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 180); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }
         //Collection of YES-----------------------End
                //YES/NO-----------End
                //WSAD Interface--------------Begin
                if(commandString[0]=='W') //If there is a command to execute
                {   
-                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 50);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 50); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }
                if(commandString[0]=='S') //If there is a command to execute
                {   
-                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 160);
-                 currentMotor=commandString[i]; 
-                 sendMotorCommand('R', currentSpeed, currentUnstoppable, 95);
-                 currentMotor=commandString[i]; 
-                 sendMotorCommand('P', currentSpeed, currentUnstoppable, 90);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('T', currentSpeed, currentUnstoppable, 160); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
+                 sendMotorCommand('R', currentSpeed, currentUnstoppable, 95); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }
                if(commandString[0]=='A') //If there is a command to execute
                {   
-                 sendMotorCommand('R', currentSpeed, currentUnstoppable, 20);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('R', currentSpeed, currentUnstoppable, 20); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }
                if(commandString[0]=='D') //If there is a command to execute
                {   
-                 sendMotorCommand('R', currentSpeed, currentUnstoppable, 180);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('R', currentSpeed, currentUnstoppable, 180); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }
-               if(commandString[0]=='Z') //turn left
+               if(commandString[0]=='Z') //If there is a command to execute
                {   
-                 sendMotorCommand('P', currentSpeed, currentUnstoppable, 110);
-                 currentMotor=commandString[i]; 
-               }
-               if(commandString[0]=='C') //turn right
-               {  
-                 sendMotorCommand('P', currentSpeed, currentUnstoppable, 70);
-                 currentMotor=commandString[i]; 
-                 delay(1000);
-                 sendMotorCommand('P', currentSpeed, currentUnstoppable, 90);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('R', 50, currentUnstoppable, 60); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }
                //WSAD Interface--------------End
                //BOP-------------------------Begin
                if(commandString[0]=='B') //If there is a command to execute
                {   
-                 sendMotorCommand('B', currentSpeed, currentUnstoppable, 180);
-                 currentMotor=commandString[i];
-                 delay(2000);
-                 sendMotorCommand('B', currentSpeed, currentUnstoppable, 90); 
-                 currentMotor=commandString[i];
+                 sendMotorCommand('B', currentSpeed, currentUnstoppable, 180); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }
-               /*if(commandString[0]=='V' && breathUnstoppable==false) //If there is a command to execute
+               if(commandString[0]=='V' && breathUnstoppable==false) //If there is a command to execute
                {   
-                 sendMotorCommand('B', currentSpeed, currentUnstoppable, 90);
-                 currentMotor=commandString[i]; 
-               }*/
+                 sendMotorCommand('B', currentSpeed, currentUnstoppable, 90); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
+               }
                //BOP-------------------------End
                //BREATH----------------------Begin
-               if(commandString[0]=='R') //If there is a command to execute
+               if(commandString[0]=='b') //If there is a command to execute
                { 
                  breathUnstoppable = true;
-                 sendMotorCommand('B', currentSpeed, breathUnstoppable, 93);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('B', currentSpeed, breathUnstoppable, 93.7); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }
                /*if(commandString[0]=='B') //If there is a command to execute
                {   
-                 sendMotorCommand('B', currentSpeed, false, 001);
-                 currentMotor=commandString[i]; 
+                 sendMotorCommand('B', currentSpeed, false, 001); //Execute the motor command
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }*/
                //trial----------
                else if(commandString[i]!='E'){ //Only executed in the first command and does not do any motor commands

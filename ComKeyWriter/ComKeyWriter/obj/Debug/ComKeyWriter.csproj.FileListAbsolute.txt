@@ -1,0 +1,6 @@
+C:\Users\Yu\Documents\Visual Studio 2015\Projects\ComKeyWriter\ComKeyWriter\bin\Debug\ComKeyWriter.exe.config
+C:\Users\Yu\Documents\Visual Studio 2015\Projects\ComKeyWriter\ComKeyWriter\obj\Debug\ComKeyWriter.exe
+C:\Users\Yu\Documents\Visual Studio 2015\Projects\ComKeyWriter\ComKeyWriter\obj\Debug\ComKeyWriter.pdb
+C:\Users\Yu\Documents\Visual Studio 2015\Projects\ComKeyWriter\ComKeyWriter\bin\Debug\ComKeyWriter.exe
+C:\Users\Yu\Documents\Visual Studio 2015\Projects\ComKeyWriter\ComKeyWriter\bin\Debug\ComKeyWriter.pdb
+C:\Users\Yu\Documents\Visual Studio 2015\Projects\ComKeyWriter\ComKeyWriter\obj\Debug\ComKeyWriter.csprojResolveAssemblyReference.cache
