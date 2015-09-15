@@ -119,6 +119,11 @@ void loop () {
                  currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                }
       //Collection of YES-----------------------Begin
+      /*
+       * O = Quick small nodds (2 times)
+       * I = Median nodds (2 times)
+       * U = Even bigger nodds
+       */
                //BigSlow YES
                if(commandString[0]=='U') //If there is a command to execute
                {   
@@ -166,6 +171,15 @@ void loop () {
         //Collection of YES-----------------------End
                //YES/NO-----------End
                //WSAD Interface--------------Begin
+        /*
+         * W = Lean forward
+         * A = Roll Left
+         * D = Roll Right
+         * Z = Turn Left
+         * C = Turn Right (turing back after 2 seconds)
+         * S = BACK TO ORIGINAL STANDING POSITION
+         * R = Breath motion (Slowly up and down)
+         */
                if(commandString[0]=='W') //If there is a command to execute
                {   
                  sendMotorCommand('T', currentSpeed, currentUnstoppable, 50); //Execute the motor command
