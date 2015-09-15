@@ -13,11 +13,10 @@
         Unstoppable means that it will block the servo until it reaches the target position.
         The code needs refactoring and the message parsing could be improved with some error detection.  
         
-  Ahsan Nawroj
-  Henny Admoni
-  Brad Hayes
-  André Pereira
-  Updated: 02/04/2015
+  Ahsan Nawroj Henny Admoni Brad Hayes André PereiraUpdated: 02/04/2015
+
+  Cornell Organizational Robotics Lab
+  Yu Qi, Malte Jung Updated: 08/21/2014
 */
 
 #include <Arduino.h>
