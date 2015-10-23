@@ -32,7 +32,7 @@
 //
 // --------------------------------------------------------------------------------
 #define SERVO_PIN(x) (x+2)  // all servo pins are connected from pin 2 onwards
-#define ROLL 0
+#define ROLL 0  
 #define BOP 1
 #define TILT 2
 #define PAN 3   
@@ -101,7 +101,7 @@ void loop () {
                if(commandString[0]=='Y') //If there is a command to execute
                {   
                  sendMotorCommand('T', currentSpeed, currentUnstoppable, 110); //Execute the motor command
-                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the firsT
+                 currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
                     delay(200);
                  sendMotorCommand('T', currentSpeed, currentUnstoppable, 180); //Execute the motor command
                  currentMotor=commandString[i]; //Set the target motor to the new one, executed in all commands with the exception of the first
@@ -220,7 +220,7 @@ void loop () {
                }
                //BOP-------------------------End
                //BREATH----------------------Begin
-               if(commandString[0]=='b') //If there is a command to execute
+               if(commandString[0]=='R') //If there is a command to execute
                { 
                  breathUnstoppable = true;
                  sendMotorCommand('B', currentSpeed, breathUnstoppable, 93.7); //Execute the motor command
